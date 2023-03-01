@@ -11,16 +11,16 @@ $(document).ready(function () {
   var button = $(".saveBtn");
   var textarea = $(".description");
   var buttonClick = function() {
-    localStorage.setItem("hour8", textarea[0].value);
-    localStorage.setItem("hour9", textarea[1].value);
-    localStorage.setItem("hour10", textarea[2].value);
-    localStorage.setItem("hour11", textarea[3].value);
-    localStorage.setItem("hour12", textarea[4].value);
-    localStorage.setItem("hour13", textarea[5].value);
-    localStorage.setItem("hour14", textarea[6].value);
-    localStorage.setItem("hour15", textarea[7].value);
-    localStorage.setItem("hour16", textarea[8].value);
-    localStorage.setItem("hour17", textarea[9].value);
+    localStorage.setItem("#hour8", textarea[0].value);
+    localStorage.setItem("#hour9", textarea[1].value);
+    localStorage.setItem("#hour10", textarea[2].value);
+    localStorage.setItem("#hour11", textarea[3].value);
+    localStorage.setItem("#hour12", textarea[4].value);
+    localStorage.setItem("#hour13", textarea[5].value);
+    localStorage.setItem("#hour14", textarea[6].value);
+    localStorage.setItem("#hour15", textarea[7].value);
+    localStorage.setItem("#hour16", textarea[8].value);
+    localStorage.setItem("#hour17", textarea[9].value);
 }
 
 $(button).click(buttonClick);
@@ -32,16 +32,16 @@ $(button).click(buttonClick);
  
 
 var savedWork= function() {
-    textarea[0].value = localStorage.getItem("hour8")
-    textarea[1].value = localStorage.getItem("hour9")
-    textarea[2].value = localStorage.getItem("hour10")
-    textarea[3].value = localStorage.getItem("hour11")
-    textarea[4].value = localStorage.getItem("hour12")
-    textarea[5].value = localStorage.getItem("hour13")
-    textarea[6].value = localStorage.getItem("hour14")
-    textarea[7].value = localStorage.getItem("hour15")
-    textarea[8].value = localStorage.getItem("hour16")
-    textarea[9].value = localStorage.getItem("hour17")
+    textarea[0].value = localStorage.getItem("#hour8")
+    textarea[1].value = localStorage.getItem("#hour9")
+    textarea[2].value = localStorage.getItem("#hour10")
+    textarea[3].value = localStorage.getItem("#hour11")
+    textarea[4].value = localStorage.getItem("#hour12")
+    textarea[5].value = localStorage.getItem("#hour13")
+    textarea[6].value = localStorage.getItem("#hour14")
+    textarea[7].value = localStorage.getItem("#hour15")
+    textarea[8].value = localStorage.getItem("#hour16")
+    textarea[9].value = localStorage.getItem("#hour17")
 }
 
 
