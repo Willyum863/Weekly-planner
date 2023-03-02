@@ -1,4 +1,4 @@
-# Employee_bloodhound
+# Weekly-Planner
 
 ## Description
 AS AN employee with a busy schedule
